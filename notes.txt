@@ -44,3 +44,24 @@ trying to upload again in github with changes made here
 
 now trying to make branch in github
 
+TO OPEN NOTEPAD IN GIT BASH AND START EDITING
+open gitbash in your project
+#type: notes.txt
+
+TO CREATE NEW BRANCH(SEPRATE COPY OF UR PROJECT)
+TO MAKE CHANGES WITHOUT TOUCHING MAIN BRANCH
+MASTER IS MAIN BRANCH OF MY PROJECT
+#git branch branchname
+
+TO MOVE INTO NEW BRANCH
+#git checkout branchname
+
+TO MOVE TOWARDS GITHUB
+#git push -u origin branchname
+(now in appear on github as a branch)
+
+NOW TO MERGE INTO MAIN
+#git checkout main
+  git merge branchname 
+  git push origin main
+
